@@ -19,6 +19,8 @@ public class Main {
         bank1.addCustomer(customer1);
         bank1.addCustomer(customer2);
 
+        bank1.getCustomer(1).getAccount("BT00000001").deposit(550);
+
         System.out.println(bank1.getCustomer(1));
 
 
